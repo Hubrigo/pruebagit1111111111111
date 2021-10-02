@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Registro Estudiante | Registro de Notas</title>
+            <meta name="description" content="Registro de Notas" />
+            <link rel="stylesheet" href="../assets/css/styles.css" />
+            <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+        </head>
+        <body>
+
+            <header>
+                <div class="icon__menu">
+                    <i class="fas fa-bars" id="btn_open"></i>
+                </div>
+            </header>
+
+            <div class="menu__side" id="menu_side">
+
+                
+
+                <div class="options__menu">	
+
+                    <a href="#" class="selected">
+                        <div class="option">
+                            <i class="fas fa-home" title="Inicio"></i>
+                            <h4>Inicio</h4>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="option">
+                            <i  class="fas fa-list-ol" title="Registro De Alumnos"></i>
+                            <h4>Registro de alumnos</h4>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="option">
+                            <i class="fas fa-clipboard-list" title="Listado de Alumnos"></i>
+                            <h4>Listado de Alumnos</h4>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="option">
+                            <i class="far fa-sticky-note" title="Registro de Notas"></i>
+                            <h4>Registro de Notas</h4>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="option">
+                            <i class="far fa-clipboard" title="Consulta de Notas"></i>
+                            <h4>Consulta de Notas</h4>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="option">
+                            <i class="fas fa-sign-out-alt" title="Salir"></i>
+                            <h4>Salir</h4>
+                        </div>
+                    </a>
+
+                    </div>
+                    
+                
+        </div>
+        
+        
+<main>
+
+
+
+
+        <div class="body">
+            <div class="panel">
+                    <h4>Registro de Alumnos</h4>
+                    <form method="post" class="form" >
+                        <label>Nombres</label><br>
+                        <input type="text" required name="nombres" maxlength="45">
+                        <br>
+                        <label>Apellidos</label><br>
+                        <input type="text" required name="apellidos" maxlength="45">
+                        <br><br>
+                        <label>No de Lista</label><br>
+                        <input type="number" min="1" class="number" name="numlista">
+                        <br><br>
+                        <label>Sexo</label><br><input required type="radio" name="genero" value="M"> Masculino
+                        <input type="radio" name="genero" required value="F"> Femenino
+                        <br><br>
+                        <label>Facultad</label><br>
+                        <select name="facultad">
+                        </select>
+                        <br><br>
+
+                      
+                        <button type="submit">Guardar</button> <button type="reset">Limpiar</button> <a class="btn-link">Ver Listado</a>
+                        <br><br>
+                      
+        
+                    </form>
+          
+                </div>
+        </div>
+
+
+   
+   
+        <footer>
+            <p>Sistema De Notas Fundacion Universitaria Compensar 2021-1</p>
+        </footer>
+    </main>
+        </body>
+        
+        </html>

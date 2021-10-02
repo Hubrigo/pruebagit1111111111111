@@ -1,0 +1,8 @@
+-- --CREATE TABLE `alumnos` (
+--   `id` int(11) NOT NULL AUTO_INCREMENT,
+--   `num_lista` int(11) NOT NULL,
+--   `nombres` varchar(45) NOT NULL,
+--   `apellidos` varchar(45) NOT NULL,
+--   `genero` char(1) NOT NULL,
+--   `id_facultad` int(11) NOT NULL,
+--   
